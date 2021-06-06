@@ -1,5 +1,7 @@
 var age = prompt('What is your age?');
 
 // Your code below:
-age=parseInt(age) + 10;
-console.log(age)
+
+var age = "Age is input + 10";
+var expected = parseInt(age) + 10;
+console.log (expected);

@@ -8,6 +8,5 @@ const g = '<title>';
 const h = '<body>';
 
 //Modify this variable
-let htmlDocument = '';
-
+let htmlDocument = '<html>' + '<head>' + '<title>' + '</title>' + '</head>' + '<body>' + '</body>' + '</html>';
 console.log(htmlDocument);
